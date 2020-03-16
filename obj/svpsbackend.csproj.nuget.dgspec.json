@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\Mendez\\project\\svps\\svpsbackend\\svpsbackend.csproj": {}
+    "C:\\Users\\admin\\Desktop\\Mendez\\svpsbackend\\svpsbackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\Mendez\\project\\svps\\svpsbackend\\svpsbackend.csproj": {
+    "C:\\Users\\admin\\Desktop\\Mendez\\svpsbackend\\svpsbackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Mendez\\project\\svps\\svpsbackend\\svpsbackend.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Mendez\\svpsbackend\\svpsbackend.csproj",
         "projectName": "svpsbackend",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Mendez\\project\\svps\\svpsbackend\\svpsbackend.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Mendez\\svpsbackend\\svpsbackend.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Mendez\\project\\svps\\svpsbackend\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Mendez\\svpsbackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -68,6 +72,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [

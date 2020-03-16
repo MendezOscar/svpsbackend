@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace svpsbackend.Models
+namespace svpsbackend.Entities
 {
-    public partial class Usuario
+    public class User
     {
         public int UsuarioId { get; set; }
         public string Username { get; set; }
